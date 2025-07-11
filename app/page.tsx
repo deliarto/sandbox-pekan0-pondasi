@@ -22,7 +22,7 @@ export default function LinkHub() {
     {
       title: 'GitHub',
       description: 'Kode dan repositori open source',
-      url: '#',
+      url: 'https://github.com/deliarto',
       icon: <Github className="w-5 h-5" />,
       color: 'from-gray-700 to-gray-900'
     },
