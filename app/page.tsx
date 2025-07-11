@@ -29,7 +29,7 @@ export default function LinkHub() {
     {
       title: 'LinkedIn',
       description: 'Profil profesional dan networking',
-      url: '#',
+      url: 'https://www.linkedin.com/in/arfan-deliarto/',
       icon: <Linkedin className="w-5 h-5" />,
       color: 'from-blue-600 to-blue-800'
     }
