@@ -15,7 +15,7 @@ export default function LinkHub() {
     {
       title: 'Portfolio Website',
       description: 'Lihat karya dan proyek terbaru saya',
-      url: '#',
+      url: 'https://simple-dplk.vercel.app/',
       icon: <Globe className="w-5 h-5" />,
       color: 'from-blue-500 to-purple-600'
     },
