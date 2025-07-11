@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Moon, Sun, Github, Twitter, Linkedin, Globe, Mail, Instagram } from 'lucide-react';
+import { Moon, Sun, Github, Linkedin, Globe } from 'lucide-react';
 
 export default function LinkHub() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -32,27 +32,6 @@ export default function LinkHub() {
       url: '#',
       icon: <Linkedin className="w-5 h-5" />,
       color: 'from-blue-600 to-blue-800'
-    },
-    {
-      title: 'Twitter',
-      description: 'Thoughts dan update terbaru',
-      url: '#',
-      icon: <Twitter className="w-5 h-5" />,
-      color: 'from-sky-400 to-blue-500'
-    },
-    {
-      title: 'Instagram',
-      description: 'Behind the scenes dan lifestyle',
-      url: '#',
-      icon: <Instagram className="w-5 h-5" />,
-      color: 'from-pink-500 to-rose-500'
-    },
-    {
-      title: 'Email',
-      description: 'Hubungi saya untuk kolaborasi',
-      url: 'mailto:hello@example.com',
-      icon: <Mail className="w-5 h-5" />,
-      color: 'from-green-500 to-emerald-600'
     }
   ];
 
